@@ -1,0 +1,569 @@
+header,
+footer {
+  background-color: #202322;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider {
+  background: #3a3a3a;
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.hero-bg img {
+  width: 100%;
+  margin: 0px 0px 0 0px;
+}
+
+.hero-area nav {
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  float: left;
+  padding: 14vw 0vw;
+  text-align: center;
+  font-size: .845em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+}
+
+li a {
+  text-decoration: none;
+  color: #666;
+  margin: ;
+  font-size: .835em;
+}
+
+li a:hover {
+  color: #fff;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Share', cursive;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #b2c7d1;
+  opacity: 10%;
+}
+
+.hero-area {
+  background: url(../img/navigate_bg_00_video.PNG);
+  background-size: cover;
+  background-position: center;
+  min-height: 13em;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 8VW 35VW 0px;
+}
+
+.video {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 2.25%;
+  margin: 0px 0px 15VW 4.25VW;
+}
+
+/* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 22%;
+  margin: 32px 0 0px 0px;
+}
+
+.form-description {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flyer {
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.flyer img {
+  display: flex;
+  width: 70%;
+  margin: 40px auto;
+  margin-top: 12VW;
+  margin-right: auto;
+  margin-bottom: 32VW;
+  margin-left: auto;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #000;
+  margin: 0px 0px 0px 0px;
+}
+
+/* Aside Form */
+aside .form {
+  margin: 100px 0px 200px 10px;
+  width: 95%;
+  align-content: center;
+  justify-content: center;
+  padding: 0 70px 0px 0px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #01809a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #58a1b0;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+aside h3 {
+  color: #01809a;
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+aside p {
+  color: #01809a;
+  font-size: 1.898em;
+  text-align: center;
+  line-height: 1.52;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-weight: 200;
+  margin: 12VW 0px 0px 0px;
+  padding: 12VW 0px 15VW 0px;
+}
+
+.meetTheCrew {
+  background-color: #dcceb2;
+  margin: 0px 0px 0px 0;
+}
+
+.meetTheCrew h1 {
+  background: #64bdcf;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Share', cursive;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  font-size: 2em;
+}
+
+.meetTheCrew p {
+  font-size: .89em;
+  line-height: 1.89;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-weight: 500;
+  width: 85%;
+  margin: 6VW;
+}
+
+.bio-items {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+}
+
+.bio-items .fa {
+  margin: 20px;
+}
+
+.bio-items i {
+  font-size: 3.75em;
+  margin-bottom: 50px 0 20px 0px;
+}
+
+.link-bio {
+  margin: 0px;
+}
+
+.bio-items h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 1.8em;
+  margin: 20px 0px 20px 0px
+}
+
+.bio-items img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 85%;
+  height: auto;
+  margin: 0px 0px 10px 25px;
+  padding: 10px 0 0 0px;
+}
+
+.behindTheScenes {
+  background-color: #ebae5f;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 0px 0px 0px 0px;
+}
+
+.behindTheScenes h2 {
+  font-size: 2em;
+  width: 100%;
+  margin: 10px 15px 12px 22px;
+  text-align: center;
+}
+
+.behindTheScenes p {
+  font-size: 1.2em;
+  margin: 0 0 0 0%;
+  text-align: center;
+}
+
+.behindTheScenes article {
+  display: flex;
+  margin: 20px 0px;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 20px 0px 0px 0px;
+}
+
+.behindTheScenes h3 {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  font-family: 'Share', cursive;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 50px 35px 20px 40px;
+}
+
+.behindTheScenes h4 {
+  font-family: 'Share', cursive;
+  margin: 20px 10px 10px 0px;
+  font-size: 1em;
+  font-weight: 100;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  width: 100%
+}
+
+.bio-items-description {
+  display: flex;
+  margin: 20px 0px;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.nwff_logo {
+  width: 11em;
+  height: 5em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 50px 0px 0 0;
+}
+
+footer {
+  flex-direction: column;
+  text-align: center;
+  margin: 0 0px 0 0px;
+}
+
+footer p {
+  margin: 0 0px 10px 3px;
+  color: #ebae5f;
+}
+
+footer .content-wrapper {
+  width: 100%;
+  margin: 10px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p {
+  background-color: #ebae5f;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+footer h4 {
+  color: #ebae5f;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .content-wrapper {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  hero-bg img {
+    width: 100%;
+    margin: 32px 0px 42px 0px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 10VW;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .responsive-iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 38%;
+    margin: 0px 0 0px 0px;
+  }
+
+  aside .form {
+    margin: 2VW 0px 20VW 8VW;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  }
+
+  aside h3 {
+    margin: 1VW 30VW 10VW;
+  }
+
+  .bio-items img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50VW;
+    height: auto;
+    margin: 0 0 1VW 21.25VW;
+  }
+
+  .meetTheCrew p {
+    font-size: 1em;
+    line-height: 1.89;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 500;
+    width: 90%;
+    margin: 4VW 5VW 10VW 3.2VW;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .bio-items i {
+    font-size: 8.75em;
+  }
+
+  .nwff_logo {
+    width: 11em;
+    height: 5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10VW 0 0 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  ul {
+    list-style-type: none;
+    margin: 0px 0px 80px 0px;
+    padding: 2px 0px 3px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+    float: left;
+    padding: 0vw 0px 8VW 26vw;
+    text-align: center;
+    font-size: 1.845em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  aside h3 {
+    color: #01809a;
+    margin: 1VW 23.5VW;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: wrap row;
+    font-size: 2.5em;
+    font-style: italic;
+  }
+
+  .hero-area {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 8VW 0VW 0px;
+  }
+
+  .responsive-iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    width: 90VW;
+    height: 40VW;
+    margin: 0px 0 0 0;
+  }
+
+  aside .form {
+    margin: 12VW 0px 20VW 20VW;
+    width: 60%;
+    align-content: center;
+    justify-content: center;
+  }
+
+  aside p {
+    color: #01809a;
+    font-size: 1.898em;
+    text-align: center;
+    line-height: 1.35;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 500;
+    margin: 80px 0px 0px 50px;
+    padding: 0px 10VW 0px 10VW;
+  }
+
+  .flyer img {
+    display: flex;
+    width: 50%;
+  }
+
+  .bio-items img {
+    display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40VW;
+  height: auto;
+  margin: 0px 0px 10px 29VW;
+  padding: 0px 0 0 0px;
+  }
+
+  .bio-items i {
+    font-size: 8.75em;
+  }
+
+  .meetTheCrew p {
+    font-size: 1em;
+    line-height: 1.69;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 550;
+    width: 65%;
+    margin: 2VW 0VW 4VW 16.25VW;
+  }
+
+  .nwff_logo {
+    width: 11em;
+    height: 5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 50px 0px 0 114%;
+  }
+}
